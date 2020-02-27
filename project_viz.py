@@ -30,6 +30,6 @@ plt.scatter(df['shots'], df['hits'])
 plt.title('Shots to hits')
 plt.xlabel('Shots')
 plt.ylabel('Hits')
-plt.savefig(f'plots/shots_hits_scatter.png', format='png')
+plt.savefig(f'plots/shots_to_hits_scatter.png', format='png')
 
 plt.close()
